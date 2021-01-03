@@ -1,0 +1,191 @@
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:link,
+a:visited {
+    color: white;
+}
+ 
+a:active {
+    color: red;
+}
+
+
+
+
+
+.navigation {
+    align-self: center;
+}
+
+
+.header_container {
+    max-width: 850px;
+    
+}
+
+
+.header_row {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin: 51px 0px 0 126px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav_list {
+    display: flex;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+   
+}
+
+
+.nav_link {
+padding: 0 17px;
+font-family: PaytoneOne;
+font-size: 18px;
+line-height: 25px;
+
+}
+
+.background_image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: auto;
+    line-height: 1px;
+    
+}
+
+.background_header {
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    .header_row {
+        
+        margin-top: 11px;
+        justify-content: start;
+        
+    }
+
+    .navigation {
+        margin-top: -6px;
+    }
+
+.nav_list {
+    flex-direction: column;
+}
+}
+
+.container{
+position: absolute;
+width: 994px;
+height: 1681px;
+left: 203px;
+top: 188px;
+}
+
+
+.top_text {
+position: absolute;
+width: 434px;
+height: 281px;
+left: 268px;
+top: 264px;
+}
+
+/* .container_alpine {
+    position: absolute;
+    width: 233px;
+    height: 89px;
+    left: 268px;
+    top: 264px;
+} */
+
+h1 {
+font-family: PaytoneOne;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 89px;
+color: #FFFFFF;
+}
+
+h3 {
+font-family: PaytoneOne;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+p {
+font-family: AbhayaLibre;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 149.8%;
+margin-top: 36px;
+/* or 27px */
+color: #FFFFFF;
+
+}
+
+.top_container {
+    position: absolute;
+    width: 992px;
+    height: 484px;
+    left: -180px;
+    top: -200px;  
+}
+
+.social_media {
+display: flex;
+position: absolute;
+width: 826px;
+height: 38px;
+left: 290px;
+top: 710px;
+flex-wrap: wrap;
+}
+
+  
+.marketing {
+position: absolute;
+width: 842px;
+height: 308px;
+left: 270px;
+top: 818px;
+}
+
+.marketing_load {
+position: absolute;
+width: 572px;
+height: 35px;
+left: 414px;
+top: 1187px;
+}
+
+.mk1 {
+position: absolute;
+width: 151px;
+height: 35px;
+left: 414px;
+top: 1187px;
+
+font-family: PaytoneOne;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 35px;
+color: #FFFFFF;
+
+}
