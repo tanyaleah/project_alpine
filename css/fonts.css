@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "PaytoneOne";
+  src: url("/fonts/PaytoneOne/PaytoneOne.eot");
+  src: url("/fonts/PaytoneOne/PaytoneOne.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/PaytoneOne/PaytoneOne.ttf") format("ttf"),
+    url("/fonts/PaytoneOne.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+ @font-face {
+   font-family: "AbhayaLibre";
+   scr: url("/fonts/AbhayaLibre/AbhayaLibre.eot");
+   src: url("/fonts/AbhayaLibre/AbhayaLibre.eot?#iefix")
+       format("embedded-opentype"),
+       url("/fonts/AbhayaLibre/AbhayaLibre.ttf") format("ttf"),
+    url("/fonts/AbhayaLibre.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+
+ }
+
